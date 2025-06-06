@@ -1,7 +1,8 @@
-// OLD
-@import 'variables';
-@import 'bootstrap/scss/bootstrap';
-
-// NEW (if Bootstrap supports it or for your own SCSS)
+// ✅ Correct: put this at the very top
 @use 'variables';
-@use 'bootstrap/scss/bootstrap' as bootstrap;
+@use 'mixins';
+
+// Then your styles
+body {
+  font-family: sans-serif;
+}
