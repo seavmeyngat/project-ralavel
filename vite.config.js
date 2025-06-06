@@ -25,4 +25,13 @@ export default defineConfig({
             vue: 'vue/dist/vue.esm-bundler.js',
         },
     },
+    // vite.config.js
+    css: {
+    preprocessorOptions: {
+      scss: {
+        // Silence warnings isn't currently supported directly
+      }
+    }
+  }
+  
 });
